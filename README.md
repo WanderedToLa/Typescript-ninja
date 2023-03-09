@@ -1,0 +1,2 @@
+# Typescript-ninja
+Advanced Typescript
