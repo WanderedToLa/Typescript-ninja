@@ -34,10 +34,10 @@
 
   `never` 타입의 경우 공집합으로 보면된다.
 
-  ```typescript
-  A & never = never
-  A | never = A
-  Exclude<0 , 0> = never
+  ```text
+  1. A & never = never
+  2. A | never = A
+  3. Exclude<0 , 0> = never
   ```
 
 ## Conclusion
