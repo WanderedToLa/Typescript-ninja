@@ -1,3 +1,4 @@
 #npm ignore
 
 /node_modules
+/.idea
