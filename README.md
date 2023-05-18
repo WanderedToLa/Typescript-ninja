@@ -21,14 +21,11 @@
 
 - 위와 같은 이유로 타입은 값의 집합으로 생각할 수 있고
 
-  - [Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html)
-  - [Generic Constraints](https://www.typescriptlang.org/docs/handbook/2/gen)
-
   ```typescript
   A extends B
   ```
 
-  링크에서의 설명과 같이 `A extends B`는 `A 는 B의 서브타입`으로 읽을 수 있다.  
+  타입스크립트 공식문서의 설명과 같이 `A extends B`는 `A 는 B의 서브타입`으로 읽을 수 있다.  
   유니온 타입과 인터섹션 타입은 합집합과 교집합이면서  
   `Exclude<A , B>` 는 다른언어에서의 `difference`연산으로 생각한다.
 
@@ -45,3 +42,8 @@
 - 타입 `A` 의 서브타입은 `A` 의 서브셋(부분 집합) `A`의 슈퍼타입은 슈퍼셋(상위집합)이다.
 - 타입 넓히기를 허용하여 타입을 넓게 만들수 있다.
 - 타입을 좁히면 특정값을 제거 할 수 있다.
+
+## 참고 링크
+
+- [Conditional Types](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html)
+- [Generic Constraints](https://www.typescriptlang.org/docs/handbook/2/gen)
