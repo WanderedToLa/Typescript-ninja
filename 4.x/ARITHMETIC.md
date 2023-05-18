@@ -24,4 +24,6 @@ type Subtract<A extends number , B extends number> =
     ? Length<U>
     : never;
 ```
-`A`가 3일때, 나머지 ...BuildTuple의 길이는 2가 됨, `U` 는 BuildTuple<1>이 됨으로 [any] => Length<any> => 1
+`BuildTuple<A>`가 3일때, `U`는 `BuildTuple<1>` 이고 나머지는 `BuildTuple<2>`   
+`BuildTuple<1>`은 [any] 이고 Length<[any]> 는 1    
+`Subtract` 가 제대로 동작하기 위해서 A 가 B보다 크거나 같아야 함.
